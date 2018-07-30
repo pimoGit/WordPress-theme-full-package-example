@@ -1,0 +1,1992 @@
+@import 'perfect-scrollbar.css';
+/*Theme singlepagefolio 2.0*/
+/*general*/
+/*MINSTYLE*/
+html.mz-touch #page #masthead h1 {
+  left: 350px;
+  margin-left: 0;
+}
+html.mz-touch #page #main #portfolio .tex a {
+  bottom: 10px;
+}
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+*:focus {
+  outline: none;
+}
+.nospace {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.onlymv {
+  display: none;
+}
+.dispnone {
+  display: none!important;
+}
+.hidden {
+  visibility: hidden!important;
+}
+form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#maskbg {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "PT Sans", Tahoma, Geneva, sans-serif;
+  font-size: 12px;
+  color: #575747;
+  background: #000;
+  width: 100%;
+  height: 100%;
+}
+body.custom-background {
+  background-image: none !important;
+}
+td {
+  font-family: "PT Sans", Tahoma, Geneva, sans-serif;
+  font-size: 12px;
+  color: #575747;
+}
+a,
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: #8C2200;
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+  cursor: pointer;
+  outline: none;
+}
+h2,
+p {
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+a img,
+a:link img,
+a:hover img,
+a:active img {
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+object,
+embed {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.font_medium {
+  font-weight: 600;
+}
+img.start {
+  display: none;
+}
+.liteb {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 29px;
+  left: 0;
+  width: 50%;
+  bottom: 26px;
+  background: #333;
+  border: 0;
+  color: #FFF;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 130%;
+  overflow: hidden;
+  display: none;
+  font-size: 11px;
+}
+.liteb#about .tags {
+  display: inline-block;
+  margin-top: 15px;
+}
+.liteb#about .tags .tag {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin: 0 5px 7px 0;
+  padding: 2px 3px;
+  display: inline-block;
+  float: left;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: solid 1px #D2D2D2;
+  color: #F3F3F3;
+  border-color: #E0DDC5;
+  font-size: 11px;
+}
+.liteb#contact .wpcf7 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.liteb#contact .wpcf7 form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.liteb#contact .wpcf7 form table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+.liteb#contact .wpcf7 form table td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-bottom: 10px;
+  color: #FFF;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 130%;
+  width: 65%;
+  text-align: left;
+  vertical-align: middle;
+}
+.liteb#contact .wpcf7 form table td input[type='text'],
+.liteb#contact .wpcf7 form table td input[type='email'],
+.liteb#contact .wpcf7 form table td input[type='submit'],
+.liteb#contact .wpcf7 form table td textarea {
+  margin: 0;
+  padding: 2px 2% 0 2%;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: solid 1px #D2D2D2;
+  border-color: #E0DDC5;
+  background: #333;
+  color: #FFF;
+  font-family: "PT Sans", Tahoma, Geneva, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  width: 96%;
+  height: 15px;
+}
+.liteb#contact .wpcf7 form table td textarea {
+  resize: none;
+  height: 200px;
+}
+.liteb#contact .wpcf7 form table td input[type='submit'] {
+  width: 70px;
+  height: 30px;
+  background-image: none !important;
+  cursor: pointer;
+  line-height: 100%;
+}
+.liteb#contact .wpcf7 form table td input[type='submit']:hover {
+  color: #444;
+  background-color: #E0DDC5;
+}
+.liteb#contact .wpcf7 form table td.inf {
+  width: 25%;
+  white-space: nowrap;
+  padding: 15px 0 0 0;
+  text-align: right;
+  vertical-align: top;
+  min-width: 95px;
+  font-size: 11px;
+}
+.liteb#contact .wpcf7 form table td img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  float: none;
+}
+.liteb#contact .wpcf7 form table td img.ajax-loader {
+  margin-left: 4px;
+}
+.liteb#contact .wpcf7 form table td.captchaimg {
+  text-align: right;
+  padding-right: 10px;
+}
+.liteb#contact .wpcf7 form table td input.wpcf7-not-valid {
+  border-color: #F00;
+  position: relative;
+  z-index: 999;
+  background: none !important;
+}
+.liteb#contact .wpcf7 form table td input#captcha_data {
+  text-transform: none;
+}
+.liteb a.close {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  color: #8C2200;
+  font-weight: bold;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  background: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0;
+  font-weight: lighter;
+  color: #E1DDC6;
+  display: block;
+  position: absolute;
+  font-family: sans-serif;
+  line-height: 99%;
+}
+.liteb a.close:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+.liteb .pagetexabout,
+.liteb .pagetexcontact {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin: 20px 0;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border-top: solid 1px #E0DDC5;
+  border-bottom: solid 1px #E0DDC5;
+  overflow: hidden;
+}
+.liteb .pagetexabout .contscrolltex,
+.liteb .pagetexcontact .contscrolltex {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding: 20px;
+  display: block;
+}
+.liteb .pagetexabout .contscrolltex p,
+.liteb .pagetexcontact .contscrolltex p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-bottom: 10px;
+}
+.liteb .pagetexabout .contscrolltex {
+  display: inline-block;
+}
+.liteb .pagetexabout .contscrolltex .legal {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 9px;
+}
+.liteb img {
+  float: left;
+  margin: 0 15px 10px 0;
+  padding: 1px;
+  border: solid 1px #E0DDC5;
+}
+#page {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  position: fixed;
+}
+#page #preloader {
+  position: absolute;
+  top: -9999px;
+  left: -99999px;
+  width: 1px;
+  height: 1px;
+  /*preload*/
+}
+#page #masthead {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 28px;
+  background: #333;
+  z-index: 99999;
+  min-width: 600px;
+}
+#page #masthead h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  width: 430px;
+  margin-left: -215px;
+  color: #E1DDC6;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+}
+#page #masthead #site-navigation {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  z-index: 9999;
+}
+#page #masthead #site-navigation .menu-portfolio-container {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+}
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  float: left;
+  margin-right: 20px;
+  color: #E1DDC6;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a {
+  color: #E1DDC6;
+  font-size: 12px;
+}
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a .down {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #E1DDC6;
+  text-align: center;
+  padding: 0 2px 1px 2px;
+  font-size: 9px;
+  color: #333;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: lighter;
+  position: relative;
+  top: -2px;
+}
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a:hover,
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a.here {
+  text-decoration: line-through;
+  color: #f4f2e7;
+}
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a:hover.dft,
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a.here.dft {
+  margin-left: 1px;
+}
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a.here {
+  cursor: default;
+}
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a.disbl {
+  color: #666;
+}
+#page #masthead #site-navigation .disablemenu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  display: none;
+}
+#page #masthead #qtranslate-chooser {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  list-style-type: none;
+}
+#page #masthead #qtranslate-chooser li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  float: left;
+  margin-left: 15px;
+}
+#page #masthead #qtranslate-chooser li img:hover {
+  opacity: 0.5;
+}
+#page #masthead #qtranslate-chooser li.active img {
+  opacity: 0.5;
+}
+#page #main {
+  top: 29px;
+  left: 0;
+  right: 0;
+  bottom: 26px;
+  overflow: hidden;
+  position: fixed;
+}
+#page #main #portfolio {
+  position: fixed;
+  top: 29px;
+  left: 0;
+  bottom: 25px;
+  right: 0;
+  overflow: hidden;
+  margin-left: 1px;
+  min-width: 600px;
+  min-height: 500px;
+}
+#page #main #portfolio #primopiano {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: 0;
+}
+#page #main #portfolio #primopiano.changed {
+  z-index: 9999;
+}
+#page #main #portfolio .progetto {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  overflow: hidden;
+  z-index: 100;
+  background: url(../img/x.gif) center center no-repeat;
+}
+#page #main #portfolio .progetto.posn1 {
+  bottom: 1px;
+}
+#page #main #portfolio .progetto.posn2 {
+  top: 0;
+  left: 0;
+}
+#page #main #portfolio .progetto.posn3 {
+  left: 0;
+}
+#page #main #portfolio .progetto.posn4 {
+  bottom: 1px;
+  left: 0;
+}
+#page #main #portfolio .progetto.posn5 {
+  top: 0;
+  right: 1px;
+}
+#page #main #portfolio .progetto.posn6 {
+  right: 1px;
+}
+#page #main #portfolio .progetto.posn7 {
+  bottom: 1px;
+  right: 1px;
+}
+#page #main #portfolio .progetto .overl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #333;
+  display: none;
+  z-index: 110;
+}
+#page #main #portfolio .progetto .overl .info {
+  width: 0;
+  height: 0;
+  background: #000;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #E1DDC6;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+#page #main #portfolio .progetto .overl .info:hover {
+  text-decoration: none;
+  color: #FFF;
+  background: #666;
+}
+#page #main #portfolio .progetto .loader {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  background: url(../img/loader.gif) center no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+  z-index: 99999;
+}
+#page #main #portfolio .progetto.selctd {
+  z-index: 9999;
+}
+#page #main #portfolio .tex {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  width: 0;
+  height: 0;
+  background: #333;
+  padding: 7px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+#page #main #portfolio .tex article {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding: 7px;
+}
+#page #main #portfolio .tex h4 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 11px;
+  font-weight: normal;
+  color: #FFF;
+  margin-bottom: 5px;
+}
+#page #main #portfolio .tex h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 11px;
+  font-weight: bold;
+  color: #E0DDC5;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+}
+#page #main #portfolio .tex .txt {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 11px;
+  font-weight: normal;
+  color: #FFF;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+#page #main #portfolio .tex .tags {
+  display: inline-block;
+}
+#page #main #portfolio .tex .tags .tag {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin: 0 5px 7px 0;
+  padding: 2px 3px;
+  display: inline-block;
+  float: left;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: solid 1px #D2D2D2;
+  color: #F3F3F3;
+  border-color: #E0DDC5;
+  font-size: 11px;
+}
+#page #main #portfolio .tex a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 10px;
+  color: #D8D5BF;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  text-transform: uppercase;
+  padding: 5px;
+}
+#page #main #portfolio .tex a .dft {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #E1DDC6;
+  text-align: center;
+  padding: 0 2px 1px 2px;
+  font-size: 9px;
+  color: #333;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: lighter;
+  position: relative;
+  top: -1px;
+}
+#page #main #portfolio .tex a.close {
+  width: 0;
+  height: 0;
+  background: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #E1DDC6;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: auto;
+  left: auto;
+  font-family: sans-serif;
+  line-height: 99%;
+}
+#page #main #portfolio .tex a.close:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+#page #main #portfolio .tex a:hover {
+  text-decoration: none;
+}
+#page #main #portfolio .tex a:hover .dft {
+  background: #F4F4F4;
+  margin-left: 1px;
+}
+#page #main #portfolio .tex.seltex {
+  z-index: 9999;
+  overflow: hidden;
+}
+#page #main #portfolio .tex.seltex article {
+  overflow: hidden;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  right: 7px;
+  bottom: 7px;
+}
+#page #main #portfolio .tex.seltex article .contscrolltex {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 20px;
+}
+#page #main #portfolio .tex.tbn1 {
+  left: auto;
+  right: 1px;
+}
+#page #main #portfolio .overall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  display: none;
+  z-index: 800;
+}
+#page #main #portfolio .overallxarch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  display: none;
+  z-index: 99998;
+}
+#page #main #portfolio .wait {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99998;
+  display: none;
+  background: url(../img/wait.png) repeat;
+}
+#page #main #archive {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: fixed;
+  left: 1px;
+  right: 1px;
+  bottom: 26px;
+  background: #000;
+  display: none;
+  height: 200px;
+  width: 100%;
+  z-index: 999999;
+}
+#page #main #archive #loadarch {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+}
+#page #main #archive #loadarch #contarch {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#page #main #archive #loadarch #contarch #contscroll {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 200px;
+  display: inline-block;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: relative;
+  z-index: 100;
+  background: url(../img/x.gif) center center no-repeat;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin-right: -1px;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 234px;
+  height: 184px;
+  background: #333;
+  border: solid 1px #000;
+  padding: 7px;
+  display: none;
+  font-family: Verdana, Geneva, sans-serif;
+  white-space: normal;
+  overflow: hidden;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch article {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  right: 7px;
+  bottom: 7px;
+  overflow: hidden;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch article .contscrolltex {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 20px;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch h4 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 11px;
+  font-weight: normal;
+  color: #FFF;
+  margin-bottom: 5px;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 11px;
+  font-weight: bold;
+  color: #E0DDC5;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch .txt {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 11px;
+  font-weight: normal;
+  color: #FFF;
+  margin-bottom: 15px;
+  line-height: 110%;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch .tags {
+  display: inline-block;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch .tags .tag {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin: 0 5px 7px 0;
+  padding: 2px 3px;
+  display: inline-block;
+  float: left;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: solid 1px #D2D2D2;
+  border-color: #E0DDC5;
+  font-size: 11px;
+  color: #F3F3F3;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 10px;
+  color: #D8D5BF;
+  text-transform: uppercase;
+  position: absolute;
+  right: 7px;
+  bottom: 0;
+  padding: 5px;
+  background-color: #333;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch a .dft {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #E1DDC6;
+  text-align: center;
+  padding: 0 2px 1px 2px;
+  font-size: 9px;
+  color: #333;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: lighter;
+  position: relative;
+  top: -1px;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch a:hover {
+  text-decoration: none;
+}
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch a:hover .dft {
+  background: #F4F4F4;
+  margin-left: 1px;
+}
+#page #main #archive #loadarch .loader {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  background: url(../img/loader.gif) center no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+  z-index: 99999;
+}
+#page #main #archive a.close {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  background: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0;
+  font-weight: lighter;
+  color: #E1DDC6;
+  display: block;
+  font-family: sans-serif;
+  z-index: 200;
+  line-height: 99%;
+}
+#page #main #archive a.close:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+#page #footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 25px;
+  background: #333;
+  z-index: 9999;
+  min-width: 600px;
+}
+#page #footer .site-info {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  color: #E1DDC6;
+  position: absolute;
+  top: 8px;
+  right: 20px;
+}
+#page #footer .social {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: 2px;
+  left: 20px;
+}
+#page #footer .social a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-left: 5px;
+  display: inline-block;
+  background: url(../img/sprite_social.png) no-repeat;
+  height: 19px;
+}
+#page #footer .social a.mail {
+  background-position: 0 0;
+  width: 18px;
+}
+#page #footer .social a.mail:hover {
+  background-position: 0 -19px;
+}
+#page #footer .social a.linkedin {
+  background-position: -20px 0;
+  width: 18px;
+}
+#page #footer .social a.linkedin:hover {
+  background-position: -20px -19px;
+}
+#page #footer .social a.tweeter {
+  background-position: -60px 0;
+  width: 24px;
+}
+#page #footer .social a.tweeter:hover {
+  background-position: -60px -19px;
+}
+#page #footer .social a.fb {
+  background-position: -86px 0;
+  width: 8px;
+}
+#page #footer .social a.fb:hover {
+  background-position: -86px -19px;
+}
+#page #footer .social a.gplus {
+  background-position: -96px 0;
+  width: 22px;
+}
+#page #footer .social a.gplus:hover {
+  background-position: -96px -19px;
+}
+#page #footer .social a.skype {
+  background-position: -40px 0;
+  width: 18px;
+}
+#page #footer .social a.skype:hover {
+  background-position: -40px -19px;
+}
+#page #footer .social.evid {
+  top: 3px;
+}
+#page #footer .social.evid a {
+  margin-left: 10px;
+}
+#page #footer .social.evid a.mail {
+  background-position: 0 -38px;
+}
+#page #footer .social.evid a.mail:hover {
+  background-position: 0 -57px;
+}
+#page #footer .social.evid a.linkedin {
+  background-position: -20px -38px;
+}
+#page #footer .social.evid a.linkedin:hover {
+  background-position: -20px -57px;
+}
+#page #footer .social.evid a.tweeter {
+  background-position: -60px -38px;
+}
+#page #footer .social.evid a.tweeter:hover {
+  background-position: -60px -57px;
+}
+#page #footer .social.evid a.fb {
+  background-position: -86px -38px;
+}
+#page #footer .social.evid a.fb:hover {
+  background-position: -86px -57px;
+}
+#page #footer .social.evid a.gplus {
+  background-position: -96px -38px;
+}
+#page #footer .social.evid a.gplus:hover {
+  background-position: -96px -57px;
+}
+#page #footer .social.evid a.skype {
+  background-position: -40px -38px;
+}
+#page #footer .social.evid a.skype:hover {
+  background-position: -40px -57px;
+}
+/*TABLET*/
+@media screen and (max-width: 960px) {
+  html #page #masthead h1 {
+    left: 290px;
+    margin-left: 0;
+  }
+  html.mz-touch {
+    min-width: 0;
+    min-height: 0;
+    /*is the device touch?*/
+  
+  }
+  html.mz-touch body {
+    min-height: 480px;
+    overflow: hidden;
+  }
+  html.mz-touch .nomv {
+    display: none;
+  }
+  html.mz-touch .onlymv {
+    display: block;
+  }
+  html.mz-touch .liteb {
+    width: 100%;
+    font-size: 1em;
+    z-index: 99999;
+  }
+  html.mz-touch .liteb .pagetexabout,
+  html.mz-touch .liteb .pagetexcontact {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+  html.mz-touch .liteb .pagetexabout .contscrolltex,
+  html.mz-touch .liteb .pagetexcontact .contscrolltex {
+    padding: 10px;
+  }
+  html.mz-touch .liteb#contact .wpcf7 form table td textarea {
+    height: 70px;
+  }
+  html.mz-touch #page {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+  }
+  html.mz-touch #page #masthead {
+    min-width: 0;
+  }
+  html.mz-touch #page #masthead h1 {
+    /*font-size:0.6em; max-width:140px; left:50%; margin-left:-85px;*/
+    font-size: 0.8em;
+    max-width: 100%;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  html.mz-touch #page #masthead #site-navigation {
+    top: 0;
+    left: 0;
+    min-width: 50px;
+    height: 28px;
+    background: url(../img/mv-menu.gif) center center no-repeat;
+  }
+  html.mz-touch #page #masthead #site-navigation .menu-portfolio-container {
+    display: none;
+    padding-top: 40px;
+    background-color: #333;
+  }
+  html.mz-touch #page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item {
+    float: none;
+    margin-right: 0;
+    font-size: 14px;
+    padding: 15px;
+    background: #333;
+    display: block;
+  }
+  html.mz-touch #page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a {
+    font-size: 14px;
+    display: block;
+    text-align: center;
+  }
+  html.mz-touch #page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a:hover,
+  html.mz-touch #page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a.here {
+    text-decoration: none;
+    background: #999;
+  }
+  html.mz-touch #page #masthead #site-navigation:hover {
+    background: none;
+  }
+  html.mz-touch #page #masthead #site-navigation:hover .menu-portfolio-container {
+    display: inline-block;
+  }
+  html.mz-touch #page #masthead #site-navigation .disablemenu {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    height: 170px;
+  }
+  html.mz-touch #page #main {
+    top: 29px;
+    left: 0;
+    right: 0;
+    bottom: 26px;
+    overflow: hidden;
+    position: fixed;
+  }
+  html.mz-touch #page #main #portfolio {
+    top: 0;
+    bottom: 26px;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-width: 0;
+    min-height: 0;
+  }
+  html.mz-touch #page #main #portfolio #primopiano {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    top: 0;
+  }
+  html.mz-touch #page #main #portfolio .progetto {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 100;
+    background: url(../img/x.gif) center center no-repeat;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  html.mz-touch #page #main #portfolio .progetto img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: auto;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn1 {
+    bottom: auto;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn1 img {
+    width: 160%;
+    margin-left: -30%;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn2 {
+    top: 0;
+    left: 0;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn3 {
+    left: 0;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn4 {
+    bottom: auto;
+    left: 0;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn5 {
+    top: 0;
+    right: auto;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn6 {
+    right: auto;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn7 {
+    bottom: auto;
+    right: auto;
+  }
+  html.mz-touch #page #main #portfolio .tex {
+    position: fixed;
+    top: 28px;
+    bottom: auto;
+    left: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  html.mz-touch #page #main #portfolio .tex.tbn1 {
+    left: 0;
+    right: auto;
+  }
+  html.mz-touch #page #main #portfolio.noscroll {
+    overflow: hidden;
+  }
+  html.mz-touch #page #main #portfolio .overallxarch {
+    position: fixed;
+  }
+  html.mz-touch #page #footer {
+    min-width: 0;
+  }
+  html.mz-touch #page #footer .site-info {
+    font-size: 0.8em;
+    top: 6px;
+    right: 10px;
+  }
+  html.mz-touch #page #footer .social {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+  }
+  html.mz-touch #page #footer .social.evid {
+    top: 3px;
+  }
+}
+/*SMALL SMART PHONES*/
+@media screen and (max-height: 400px) and (orientation: landscape) {
+  html.mz-touch {
+    min-width: 0;
+    min-height: 0;
+    /*is the device touch?*/
+  
+  }
+  html.mz-touch .nomv {
+    display: none;
+  }
+  html.mz-touch .onlymv {
+    display: block;
+  }
+  html.mz-touch body {
+    min-height: 400px;
+    overflow: hidden;
+  }
+  html.mz-touch .liteb {
+    width: 100%;
+    font-size: 1em;
+    z-index: 99999;
+  }
+  html.mz-touch .liteb .pagetexabout,
+  html.mz-touch .liteb .pagetexcontact {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    top: 5px;
+    left: 5px;
+    right: 30px;
+    bottom: 5px;
+  }
+  html.mz-touch .liteb .pagetexabout .contscrolltex,
+  html.mz-touch .liteb .pagetexcontact .contscrolltex {
+    padding: 10px;
+  }
+  html.mz-touch .liteb#contact .wpcf7 form table td textarea {
+    height: 70px;
+  }
+  html.mz-touch #page {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+  }
+  html.mz-touch #page #masthead {
+    min-width: 0;
+  }
+  html.mz-touch #page #masthead h1 {
+    /*font-size:0.6em; max-width:140px; left:50%; margin-left:-70px;*/
+    font-size: 0.8em;
+    max-width: 100%;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  html.mz-touch #page #masthead #site-navigation {
+    top: 0;
+    left: 0;
+    min-width: 50px;
+    height: 28px;
+    background: url(../img/mv-menu.gif) center center no-repeat;
+  }
+  html.mz-touch #page #masthead #site-navigation .menu-portfolio-container {
+    display: none;
+    padding-top: 40px;
+    background-color: #333;
+  }
+  html.mz-touch #page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item {
+    float: none;
+    margin-right: 0;
+    font-size: 1em;
+    padding: 15px;
+    background: #333;
+    display: block;
+  }
+  html.mz-touch #page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+  }
+  html.mz-touch #page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a:hover,
+  html.mz-touch #page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a.here {
+    text-decoration: none;
+    background: #999;
+  }
+  html.mz-touch #page #masthead #site-navigation:hover {
+    background: none;
+  }
+  html.mz-touch #page #masthead #site-navigation:hover .menu-portfolio-container {
+    display: inline-block;
+  }
+  html.mz-touch #page #masthead #site-navigation .disablemenu {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    height: 170px;
+  }
+  html.mz-touch #page #main {
+    top: 29px;
+    left: 0;
+    right: 0;
+    bottom: 26px;
+    overflow: hidden;
+    position: fixed;
+  }
+  html.mz-touch #page #main #portfolio {
+    top: 0;
+    bottom: 26px;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-width: 0;
+    min-height: 0;
+  }
+  html.mz-touch #page #main #portfolio #primopiano {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    top: 0;
+  }
+  html.mz-touch #page #main #portfolio .progetto {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 100;
+    background: url(../img/x.gif) center center no-repeat;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  html.mz-touch #page #main #portfolio .progetto img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: auto;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn1 {
+    bottom: auto;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn1 img {
+    width: 160%;
+    margin-left: -30%;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn2 {
+    top: 0;
+    left: 0;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn3 {
+    left: 0;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn4 {
+    bottom: auto;
+    left: 0;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn5 {
+    top: 0;
+    right: auto;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn6 {
+    right: auto;
+  }
+  html.mz-touch #page #main #portfolio .progetto.posn7 {
+    bottom: auto;
+    right: auto;
+  }
+  html.mz-touch #page #main #portfolio .tex {
+    position: fixed;
+    top: 28px;
+    bottom: auto;
+    left: 0;
+    width: 0;
+    height: 0;
+    font-size: 0.9em;
+    overflow: hidden;
+  }
+  html.mz-touch #page #main #portfolio .tex h4 {
+    font-size: 1em;
+    margin-bottom: 0.7em;
+  }
+  html.mz-touch #page #main #portfolio .tex h2 {
+    font-size: 1em;
+    margin-bottom: 0.8em;
+  }
+  html.mz-touch #page #main #portfolio .tex .txt {
+    font-size: 1em;
+    margin-bottom: 0.9em;
+    line-height: 100%;
+  }
+  html.mz-touch #page #main #portfolio .tex a {
+    font-size: 1em;
+  }
+  html.mz-touch #page #main #portfolio .tex.tbn1 {
+    left: 0;
+    right: auto;
+  }
+  html.mz-touch #page #main #portfolio.noscroll {
+    overflow: hidden;
+  }
+  html.mz-touch #page #main #portfolio .overallxarch {
+    position: fixed;
+  }
+  html.mz-touch #page #footer {
+    min-width: 0;
+  }
+  html.mz-touch #page #footer .site-info {
+    font-size: 0.8em;
+    top: 6px;
+    right: 10px;
+  }
+  html.mz-touch #page #footer .social {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+  }
+  html.mz-touch #page #footer .social.evid {
+    top: 3px;
+  }
+}
+/*tiny old device*/
+@media screen and (max-height: 260px) and (orientation: landscape) {
+  html.mz-touch {
+    min-width: 0;
+    min-height: 0;
+    /*is the device touch?*/
+  
+  }
+  html.mz-touch body {
+    min-height: 260px;
+    overflow: hidden;
+  }
+  html.mz-touch #page #main #archive {
+    overflow-y: auto;
+  }
+  html.mz-touch #page #main #archive #loadarch #contarch {
+    height: 100%;
+  }
+  html.mz-touch #page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch h4 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+  }
+  html.mz-touch #page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch h2 {
+    font-size: 1em;
+    margin-bottom: 0.7em;
+  }
+  html.mz-touch #page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch .txt {
+    font-size: 1em;
+    margin-bottom: 0.7em;
+    line-height: 100%;
+  }
+  html.mz-touch #page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch .tags .tag {
+    margin: 0 0.5em 0.5em 0;
+    padding: 2px;
+    font-size: 1em;
+  }
+  html.mz-touch #page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch a {
+    font-size: 0.9em;
+  }
+  html.mz-touch #page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch a .dft {
+    padding: 0 1px 1px 1px;
+    font-size: 0.8em;
+  }
+  html.mz-touch #page #main #archive a.close {
+    font-size: 1em;
+    position: absolute;
+    padding-top: 0.9em;
+  }
+}
+@media screen and (max-width: 730px) {
+  html:not(.mz-touch) #page #masthead h1 {
+    display: none;
+  }
+}
+/*SLIDER
+ */
+#pslider-container {
+  zoom: 1;
+  position: relative;
+  margin: 0 auto;
+  z-index: 100;
+  border: none;
+  text-align: left;
+  /* reset align=center */
+
+}
+* html #pslider-container {
+  width: 900px;
+}
+#pslider-container ul {
+  position: relative;
+  width: 10000%;
+  height: auto;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+  overflow: visible;
+}
+#pslider-container .sps_images ul li {
+  width: 1%;
+  line-height: 0;
+  /*opera*/
+
+  float: left;
+  font-size: 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+#pslider-container .sps_images {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#pslider-container .sps_images img {
+  width: 100%;
+  border: none 0;
+  max-width: none;
+}
+#pslider-container a {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+/* bottom center */
+#pslider-container ul {
+  animation: spsCssanim 12s infinite;
+  -moz-animation: spsCssanim 12s infinite;
+  -webkit-animation: spsCssanim 12s infinite;
+}
+@keyframes spsCssanim {
+  0% {
+    left: 0%;
+  }
+  16.67% {
+    left: 0%;
+  }
+  33.33% {
+    left: -100%;
+  }
+  50% {
+    left: -100%;
+  }
+  66.67% {
+    left: -200%;
+  }
+  83.33% {
+    left: -200%;
+  }
+}
+@-moz-keyframes spsCssanim {
+  0% {
+    left: 0%;
+  }
+  16.67% {
+    left: 0%;
+  }
+  33.33% {
+    left: -100%;
+  }
+  50% {
+    left: -100%;
+  }
+  66.67% {
+    left: -200%;
+  }
+  83.33% {
+    left: -200%;
+  }
+}
+@-webkit-keyframes spsCssanim {
+  0% {
+    left: 0%;
+  }
+  16.67% {
+    left: 0%;
+  }
+  33.33% {
+    left: -100%;
+  }
+  50% {
+    left: -100%;
+  }
+  66.67% {
+    left: -200%;
+  }
+  83.33% {
+    left: -200%;
+  }
+}
+/*FORM VALIDATION*/
+wpcf7 {
+  margin: 0;
+  padding: 0;
+}
+wpcf7-response-output {
+  margin: -45px 0.5em 1em 100px;
+  padding: 0.2em 1em;
+}
+wpcf7-mail-sent-ok {
+  border: 1px solid #398f14;
+}
+wpcf7-mail-sent-ng {
+  border: 1px solid #ff0000;
+}
+wpcf7-spam-blocked {
+  border: 1px solid #ffa500;
+}
+wpcf7-validation-errors {
+  border: 1px solid #f7e700;
+}
+wpcf7-form-control-wrap {
+  position: relative;
+}
+wpcf7-not-valid-tip {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  z-index: 100;
+  background: none;
+  border: 0;
+  font-size: 9px;
+  width: auto;
+  padding: 0 ;
+  text-transform: uppercase;
+  text-align: right;
+  height: 12px;
+  color: #F00;
+  overflow: hidden;
+}
+wpcf7-not-valid-tip-no-ajax {
+  color: #f00;
+  font-size: 10pt;
+  display: block;
+}
+wpcf7-list-item {
+  margin-left: 0.5em;
+}
+.wpcf7-display-none {
+  display: none;
+}
+wpcf7 img.ajax-loader {
+  border: none;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+wpcf7 .placeheld {
+  color: #888;
+}
+wpcf7-not-valid-tip {
+  left: 2px;
+  right: 2px;
+  /*direction: rtl;*/
+
+}
+wpcf7-not-valid-tip-no-ajax {
+  /*direction: rtl;*/
+
+}
+wpcf7-list-item {
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+/*cookies banner*/
+#cookie-banner {
+  position: fixed;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  background-color: rgba(185, 232, 236, 0.95);
+  padding: 7px 5% 15px 5%;
+  z-index: 9999999;
+  font-weight: bold;
+}
+#cookie-banner.notshow {
+  display: none;
+}
+#cookie-banner p {
+  margin-bottom: 15px;
+  line-height: 150%;
+  font-size: 11px;
+  color: #575747;
+}
+#cookie-banner p a {
+  color: #8C2200 !important;
+}
+#cookie-banner img {
+  max-width: 95%;
+  height: auto;
+}
+#cookie-banner .cloz {
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #77CEC3;
+}
+#cookie-banner .cloz:hover {
+  background-color: #99E6DC;
+  cursor: pointer;
+}
+/*a.privacy {color: #fff !important;}
+a.privacy:hover {color: #fff  !important; text-decoration: underline;}*/
+.site-info a {
+  color: #fff !important;
+}
+.site-info a:hover {
+  color: #fff  !important;
+  text-decoration: underline;
+}
+/*LIGHTBOX WISHES*/
+#overxmas14 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(94, 85, 77, 0.9);
+  text-align: center;
+  opacity: 0;
+  z-index: 99999;
+  overflow: visible;
+}
+#overxmas14 .desk {
+  margin: 0;
+  border: 0;
+  margin: -325px 0 0 -300px;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#overxmas14 .desk img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#overxmas14 .desk .clozaug {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  cursor: pointer;
+}
+#overxmas14 .augmv {
+  margin: 0;
+  border: 0;
+  margin: -186.5px 0 0 -130px;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: none;
+}
+#overxmas14 .augmv img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#overxmas14 .augmv .clozaug {
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+@media screen and (max-width: 624px) and (min-width: 600px) {
+  #overxmas14 .desk .clozaug {
+    top: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 599px) {
+  #overxmas14 .desk {
+    display: none;
+  }
+  #overxmas14 .augmv {
+    display: block;
+  }
+}
+/*COLOR CUSTOM MANAGMENT*/
+/*HEDAER*/
+/*header background color*/
+#page #masthead {
+  background: #333;
+}
+/*portfolio menu link  color*/
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a {
+  color: #E1DDC6;
+}
+/*portfolio menu link over color*/
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a:hover,
+#page #masthead #site-navigation .menu-portfolio-container #menu-portfolio .menu-item a.here {
+  color: #f0efe4;
+}
+/*site title  color*/
+#page #masthead h1 {
+  color: #fff;
+}
+/*BODY*/
+/*body bg color*/
+body.custom-background,
+body,
+#page #main #archive {
+  background-color: #000 !important;
+}
+/*PANELS*/
+/*panels bg color*/
+#page #main #portfolio .tex,
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch,
+#page #main #portfolio .tex a {
+  background-color: #333;
+}
+/*panels rollover bg color*/
+#page #main #portfolio .progetto .overl {
+  background-color: #333;
+}
+/*date color*/
+#page #main #portfolio .tex h4,
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch h4 {
+  color: #FFF;
+}
+/*title color*/
+#page #main #portfolio .tex h2,
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch h2 {
+  color: #E0DDC5;
+}
+/*text color*/
+#page #main #portfolio .tex .txt,
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch .txt {
+  color: #FFF;
+}
+/*link color*/
+#page #main #portfolio .tex a,
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch a {
+  color: #D8D5BF;
+}
+#page #main #portfolio .tex a .dft,
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch a .dft {
+  background-color: #D8D5BF;
+}
+/*link over color*/
+#page #main #portfolio .tex a:hover,
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch a:hover {
+  color: #f4f2e7;
+}
+#page #main #portfolio .tex a:hover .dft,
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch a:hover .dft {
+  background-color: #f4f2e7;
+}
+/*over disable layer*/
+#page #main #portfolio .overall {
+  background-color: #333;
+}
+/*FOOTER*/
+/*backgound*/
+#page #footer {
+  background-color: #333;
+}
+/*text*/
+#page #footer .site-info {
+  color: #E1DDC6;
+}
+/*link*/
+.site-info a {
+  color: #FFF !important;
+}
+/*link over*/
+.site-info a:hover {
+  color: #FFF !important;
+}
+/*ABOUT/CONTACT*/
+/*backgound*/
+.liteb {
+  background-color: #333;
+}
+/*text and form labels*/
+.liteb,
+#contact.liteb .wpcf7 form table td,
+#contact.liteb .wpcf7 form table td input[type="submit"],
+#contact.liteb .wpcf7 form table td input[type="text"],
+#contact.liteb .wpcf7 form table td input[type="email"],
+#contact.liteb .wpcf7 form table td input[type="submit"],
+#contact.liteb .wpcf7 form table td textarea {
+  color: #FFF;
+}
+/*borders*/
+.liteb .pagetexabout,
+.liteb .pagetexcontact,
+.liteb img,
+#contact.liteb .wpcf7 form table td input[type="text"],
+#contact.liteb .wpcf7 form table td input[type="email"],
+#contact.liteb .wpcf7 form table td input[type="submit"],
+#contact.liteb .wpcf7 form table td textarea {
+  border-color: #E0DDC5;
+}
+/*send button over*/
+#contact.liteb .wpcf7 form table td input[type="submit"]:hover {
+  background-color: #E0DDC5;
+}
+/*TAGS*/
+/*tag text color*/
+#page #main #portfolio .tex .tags .tag,
+#about.liteb .tags .tag,
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch .tags .tag {
+  color: #F3F3F3;
+}
+/*tag text color*/
+#page #main #portfolio .tex .tags .tag,
+#about.liteb .tags .tag,
+#page #main #archive #loadarch #contarch #contscroll .progetto-arch .tex-arch .tags .tag {
+  border-color: #E0DDC5;
+}
