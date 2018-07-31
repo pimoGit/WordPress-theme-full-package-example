@@ -10,6 +10,7 @@ So the point here is not the theme code itself, but showing an example of:
 - how to produce a useful readme file;
 - how to produce a complete and useful theme documentation, not forgetting the basic and newbie info;
 - how to prepare demo data;
+
 with the goal of delivering a ready theme package.
 
 It's a quite simple theme so I think it should be useful for the purpose of being a template/reference to a theme package structure.
