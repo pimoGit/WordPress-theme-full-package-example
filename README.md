@@ -20,5 +20,11 @@ I hope you find it useful!
 
 If you are curious and want to see a demo of it: http://www.simoneicardi.com/wpthemes/singlepagefolio/
 
-NOTE: Just for the sake of easiness, for you to consulting the files, everything is already unzipped.
+
+
+**NOTE:** Just for the sake of easiness, for you to consulting the files, everything is already unzipped.
 In the wild, you are gonna deliver just a zip with the full package. This zip will contain a folder with the documentation pdf's, a folder with the demo data XML and the zip file of the theme.
+
+![screenshot 0](https://github.com/pimoGit/WordPress-theme-full-package-example/blob/master/other-assets/theme-pacake-0.jpg?raw=true)
+
+![screenshot 1](https://github.com/pimoGit/WordPress-theme-full-package-example/blob/master/other-assets/theme-pacake-1.jpg?raw=true)
